@@ -82,7 +82,7 @@ test('Large straight works', () => {
 
 test('Chance works', () => {
     let dices = [1, 2, 3, 4, 5];
-    expect(checkChance(dices)).toBe(true);
+    expect(checkChance(dices)).toBe(15);
 });
 
 test('Yathzee works', () => {
